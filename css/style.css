@@ -67,17 +67,17 @@ li a,
 
 /* Banner one*/
 
-.banner-one {
+.banner {
     padding: 32px 24px;
     display: flex;
 }
 
-.left-banner-one {
+.left-banner {
     width: 60%;
     height: auto;
 }
 
-.right-banner-one {
+.right-banner {
     display: flex;
     flex-flow: wrap column;
     justify-content: center;
@@ -93,28 +93,28 @@ li a,
 
 /* Banner two */
 
-.banner-two {
+.information {
     display: flex;
     padding: 32px 24px;
     background-color: white;
 }
 
-.left-banner-two {
+.left-information {
     width: 60%;
     
     
 }
 
-.benner-two-left-img {
+.left-information-img {
     width: 100%;
     
 }
 
-.banner-two-text h2 {
+.left-information-text h2 {
     margin: 24px;
 }
 
-.banner-two-right-img {
+.right-information-img {
     width: 35%;
     height: auto;
     padding: 16px;
@@ -124,21 +124,21 @@ li a,
     display: flex;
 }
 
-.banner-right {
+.right-information {
     width: 40%;
     padding-left: 24px;
 }
 
-.banner-right a {
+.right-information a {
     text-decoration: none;
     color: rgb(87, 126, 243);
 }
 
-.two-text {
+.right-information-text {
     padding: 8px;
 }
 
-.two-text h3 {
+.right-information-text h3 {
     padding: 8px;
 }
 
@@ -195,12 +195,12 @@ li a,
 
 /* Exhibit */
 
-.banner-four {
+.exh {
     background-color: white;
     padding: 32px 24px;
 }
 
-.banner-four h2 {
+.exh h2 {
     text-align: center;
     padding: 32px;
 }
