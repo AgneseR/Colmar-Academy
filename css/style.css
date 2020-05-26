@@ -1,0 +1,239 @@
+
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: rgb(216, 216, 216);
+    color: rgb(74, 74, 74);
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+}
+
+.gray {
+    background-color: rgb(216, 216, 216);
+}
+
+.border {
+    border: 1px solid rgb(216, 216, 216);
+    margin-bottom: 2px;
+}
+
+
+/* Navigation bar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 16px 24px;
+    background-color: white;
+
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 16px;
+}
+
+li a,
+.logo {
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+}
+
+.logo {
+    text-transform: uppercase;
+}
+
+.icon-big {
+    height: 32px;
+    padding: auto;
+}
+
+#colmar {
+    font-weight: bold;
+}
+
+#academy {
+    opacity: 0.5;
+}
+
+/* Banner one*/
+
+.banner-one {
+    padding: 32px 24px;
+    display: flex;
+}
+
+.left-banner-one {
+    width: 60%;
+    height: auto;
+}
+
+.right-banner-one {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.start {
+    padding: 8px;
+    color: white;
+    background-color: rgb(74, 74, 74);
+    border: none;
+}
+
+/* Banner two */
+
+.banner-two {
+    display: flex;
+    padding: 32px 24px;
+    background-color: white;
+}
+
+.left-banner-two {
+    width: 60%;
+    
+    
+}
+
+.benner-two-left-img {
+    width: 100%;
+    
+}
+
+.banner-two-text h2 {
+    margin: 24px;
+}
+
+.banner-two-right-img {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.banner-right {
+    width: 40%;
+    padding-left: 24px;
+}
+
+.banner-right a {
+    text-decoration: none;
+    color: rgb(87, 126, 243);
+}
+
+.two-text {
+    padding: 8px;
+}
+
+.two-text h3 {
+    padding: 8px;
+}
+
+/* Courses */
+.learning {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding-bottom: 32px;
+  }
+
+  .start-learning {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .course {
+    background-color: #ffffff;
+    width: 32%;
+    height: 20rem;
+    margin-bottom: 20px;
+  }
+
+  .course-img img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .course-content {
+    padding: 2px 16px 24px 16px;
+    opacity: 0.75;
+  }
+  
+  .course-content p {
+    font-size: 0.95rem;
+  }
+
+  .title {
+      text-transform: uppercase;
+  }
+
+  
+
+/* Exhibit */
+
+.banner-four {
+    background-color: white;
+    padding: 32px 24px;
+}
+
+.banner-four h2 {
+    text-align: center;
+    padding: 32px;
+}
+
+.exhibit {
+    display: flex;
+    
+} 
+
+.video {
+    width: 60%;
+}
+
+.exh-info {
+    width: 40%;
+    padding-left: 24px;
+}
+
+.ex-card {
+    display: flex;
+}
+
+/* footer */
+ footer {
+     opacity: 0.75;
+     display: flex;
+     background-color: white;
+     border-top: 1px solid rgb(216, 216, 216);
+     justify-content: space-between;
+     padding: 16px 24px;
+ }
+
+ footer ul {
+    display: flex;
+    float: right;
+ }
