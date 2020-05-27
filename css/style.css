@@ -114,7 +114,7 @@ li a,
     margin: 24px;
 }
 
-.right-information-img {
+.right-img {
     width: 35%;
     height: auto;
     padding: 16px;
@@ -134,7 +134,7 @@ li a,
     color: rgb(87, 126, 243);
 }
 
-.right-information-text {
+.right-text {
     padding: 8px;
 }
 
